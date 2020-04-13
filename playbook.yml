@@ -1,8 +1,8 @@
 ---
 - name: test in jenkins
-  hosts: localhost
+  hosts: jbx
   
   tasks:
-    - debug:
-        msg: "Ceci est un test"
+    - name: touch toto
+      shell: touch toto
  
