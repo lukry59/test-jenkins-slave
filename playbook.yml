@@ -1,0 +1,8 @@
+---
+- name: test in jenkins
+  hosts: localhost
+  
+  tasks:
+    - debug:
+        msg: "Ceci est un test"
+ 
